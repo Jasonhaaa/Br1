@@ -1,0 +1,165 @@
+nav ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+font-size: 1.5rem;
+text-align: center;
+}
+nav li {
+display: inline-block;
+}
+
+
+nav {
+border: 1px solid #333;
+margin: 1rem auto;
+background-color: #eee;
+background-image: url("https://assets.codepen.io/296057/lil-graydots.png");
+border-bottom: 5px solid #00FA9A;
+border-top: 5px solid #00FA9A;
+}
+nav a {
+color: #228B22;
+text-decoration: none;
+font-size: 1.5rem;
+font-weight: 600;
+display: block;
+padding: 0.5rem 1rem;
+}
+
+nav a:focus {
+background-color: #f0c808;
+color: black;
+}
+nav a:hover {
+background-color: #f0c808;
+color: #2E8B57;
+background-image: url("https://assets.codepen.io/296057/lil-yellowdots.png");
+}
+.active {
+color: #ff583d;
+background-color: #c5e5ed;
+background-image: url("https://assets.codepen.io/296057/lil-bluedots.png");
+}
+
+html {
+box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+box-sizing: inherit;
+}
+body {
+font-family: "Roboto Slab", serif;
+font-weight: 400;
+margin: 0;
+padding: 0;
+font-size: 1.2rem;
+}
+h1 {
+Color: red;
+text-align:center;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #3cb371;
+}
+
+li {
+float: left;
+border-right: 1px solid #bbb;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 24px 26px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #3cb371;
+}
+body {
+/* Old browsers */
+background: #3cb371;
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(-45deg, #ffcccc, #00ffff);
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(-45deg, #8FBC8F, #556B2F);
+margin: 0;
+padding: 0;
+}
+
+h1 {
+color: #FFF;
+font-size: 2em;
+padding-top: 100px;
+width: 100%;
+}
+
+h2 {
+border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+color: rgba(255, 255, 255, 0.5);
+font-weight: 100;
+font-size: 22px;
+line-height: 24px;
+padding-bottom: 30px;
+text-align: center;
+width: 70%;
+}
+
+p {
+color: aliceblue;
+line-height: 1.3em;
+text-align: left;
+width: 100%;
+}
+
+.byline {
+font-family: Helvetica;
+color: rgba(255, 255, 255, 0.5);
+float: left;
+font-size: 14px;
+padding-left: 10px;
+text-transform: uppercase;
+}
+
+.caption {
+display: block;
+font-family: 'Playfair Display', serif;
+font-size: 34px;
+font-style: italic;
+line-height: 34px;
+margin-left: 20px;
+padding: 10px;
+position: relative;
+text-align: center;
+top: 50%;
+width: 90%;
+}
+
+.content {
+padding: 40px;
+}
+
+.image {
+background-image: url("https://tvax4.sinaimg.cn/crop.0.0.600.600.180/424635dfly8h15p5jo5i5j20go0godiy.jpg?KID=imgbed,tva&Expires=1649664193&ssig=%2BxZzDDwaO8");
+background-size: cover;
+background-position: left;
+height: 900px;
+}
+
+.writer-img {
+-webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+-moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+float: left;
+width: 50px;
+}
